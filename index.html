@@ -3,25 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odnawialne Źródła Energii</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Kontakt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label, input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Odnawialne Źródła Energii</h1>
+        <h1>Kontakt</h1>
         <nav>
             <ul>
+                <li><a href="index.html">Strona Główna</a></li>
                 <li><a href="slonce.html">Energia Słoneczna</a></li>
                 <li><a href="wiatr.html">Energia Wiatrowa</a></li>
                 <li><a href="woda.html">Energia Wodna</a></li>
                 <li><a href="inne.html">Biomasa i Geotermia</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </nav>
     </header>
     <section>
-        <h2>Witaj na stronie o Odnawialnych Źródłach Energii</h2>
-        <p>Wybierz jedną z sekcji powyżej, aby dowiedzieć się więcej o różnych rodzajach OZE.</p>
+        <h2>Skontaktuj się z nami</h2>
+        <p>Masz pytania? Napisz do nas!</p>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
     </section>
     <footer>
         <p>&copy; 2025 Odnawialne Źródła Energii</p>
