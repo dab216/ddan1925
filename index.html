@@ -18,9 +18,21 @@
         .nav {
             text-align: center;
             margin-bottom: 20px;
+            position: relative;
+        }
+        .nav > ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .nav ul li {
+            position: relative;
+            display: inline-block;
         }
         .nav a {
-            margin: 0 15px;
             text-decoration: none;
             color: white;
             font-weight: bold;
@@ -28,6 +40,31 @@
             background-color: #02732A;
             padding: 10px 15px;
             border-radius: 5px;
+            display: block;
+        }
+        .nav ul li:hover .dropdown {
+            display: block;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #02732A;
+            border-radius: 5px;
+            padding: 0;
+            min-width: 180px;
+        }
+        .dropdown li {
+            display: block;
+            text-align: left;
+        }
+        .dropdown a {
+            padding: 10px;
+            display: block;
+        }
+        .dropdown a:hover {
+            background: #035d20;
         }
         .container {
             max-width: 800px;
@@ -56,36 +93,42 @@
 </head>
 <body>
     <div class="nav">
-        <a href="#solutions">Nasze rozwiązania</a>
-        <a href="#benefits">Korzyści</a>
-        <a href="#projects">Realizacje</a>
-        <a href="#blog">Blog</a>
+        <ul>
+            <li>
+                <a href="#solutions">Nasze rozwiązania</a>
+                <ul class="dropdown">
+                    <li><a href="#solar">Fotowoltaika</a></li>
+                    <li><a href="#wind">Energia wiatrowa</a></li>
+                    <li><a href="#storage">Magazyny energii</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#benefits">Korzyści</a>
+                <ul class="dropdown">
+                    <li><a href="#savings">Oszczędności</a></li>
+                    <li><a href="#eco">Ekologia</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#projects">Realizacje</a>
+                <ul class="dropdown">
+                    <li><a href="#residential">Domy prywatne</a></li>
+                    <li><a href="#commercial">Firmy</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#blog">Blog</a>
+                <ul class="dropdown">
+                    <li><a href="#news">Nowości</a></li>
+                    <li><a href="#tips">Porady</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
     <a href="#" class="home-button">Powrót na główną</a>
     <div class="container">
         <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
-        <p>Witaj na stronie Terleckiy Green Tech – firmy, która zmienia sposób myślenia o energii. Specjalizujemy się w innowacyjnych rozwiązaniach opartych na odnawialnych źródłach energii (OZE), oferując kompleksowe systemy fotowoltaiczne, farmy wiatrowe, pompy ciepła i magazyny energii. Naszym celem jest dostarczanie czystej, bezpiecznej i oszczędnej energii, która pozwala dbać o środowisko i przyszłość kolejnych pokoleń.</p>
-        <h2>Nasza misja: czysta energia dla każdego</h2>
-        <p>Wierzymy, że zrównoważony rozwój i nowoczesne technologie mogą iść w parze, dlatego pomagamy naszym klientom w przejściu na ekologiczną energię w sposób łatwy i opłacalny. Dzięki naszym rozwiązaniom możesz:</p>
-        <ul>
-            <li>✅ Oszczędzać na rachunkach za prąd – wykorzystując darmową energię ze słońca i wiatru</li>
-            <li>✅ Zwiększyć swoją niezależność energetyczną – magazynując energię na własny użytek</li>
-            <li>✅ Zmniejszyć ślad węglowy – przyczyniając się do ochrony środowiska</li>
-            <li>✅ Korzystać z dofinansowań – pomagamy uzyskać wsparcie finansowe na Twoją inwestycję</li>
-        </ul>
-        <h2>Dlaczego warto wybrać Terleckiy Green Tech?</h2>
-        <ul>
-            <li>🏆 Doświadczenie i nowoczesne technologie – od lat dostarczamy innowacyjne rozwiązania OZE.</li>
-            <li>🔧 Kompleksowa obsługa – od projektu, przez montaż, aż po serwis.</li>
-            <li>📜 Pomoc w uzyskaniu dofinansowania – wspieramy naszych klientów w zdobywaniu dotacji i ulg podatkowych.</li>
-            <li>♻️ Ekologia i oszczędność – nasze rozwiązania pozwalają ograniczyć emisję CO₂ i zmniejszyć wydatki na energię.</li>
-        </ul>
-        <h2>Czas na zmianę! Dołącz do rewolucji energetycznej z Terleckiy Green Tech!</h2>
-        <p>Nie zwlekaj! Inwestując w odnawialne źródła energii, oszczędzasz i dbasz o środowisko. Skontaktuj się z nami i sprawdź, jak możemy pomóc Ci przejść na zieloną stronę energii!</p>
-        <p><strong>📞 Zadzwoń do nas:</strong> [Numer telefonu]</p>
-        <p><strong>📩 Napisz wiadomość:</strong> [Adres e-mail]</p>
-        <p><strong>📍 Odwiedź nas w biurze:</strong> [Adres firmy]</p>
-        <p><strong>👉 Sprawdź nasze realizacje i przekonaj się, jak zmieniamy świat na lepsze!</strong></p>
+        <p>Witaj na stronie Terleckiy Green Tech...</p>
     </div>
 </body>
 </html>
