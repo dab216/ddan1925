@@ -3,47 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terleckiy Green Tech - odnawialne źródła energii, fotowoltaika, farmy wiatrowe, pompy ciepła i magazyny energii.">
     <title>Terleckiy Green Tech - Energia Przyszłości</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styl.css">
     <style>
         body {
             margin: 0;
-            font-family: "Roboto", sans-serif;
+            padding: 20px;
+            font-family: Menlo, Courier, monospace;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 100vh;
-            background-image: url('https://i.pinimg.com/1200x/70/71/fb/7071fbc9c966083b1fd2274f4e32fe23.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        header {
-            background-color: rgba(46, 139, 87, 0.8);
-            color: white;
             text-align: center;
-            padding: 20px;
+            background-attachment: fixed;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.9);
+        .content {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: rgba(51, 51, 51, 0.8);
-            color: white;
+        h1, h2 {
+            transition: color 0.3s ease-in-out;
+        }
+        h1:hover, h2:hover {
+            color: #2e8b57;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .content {
+                padding: 20px;
+            }
+        }
+        .contact-form {
             margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background: #2e8b57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #237a4c;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="content">
         <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
-    </header>
-    <div class="container">
-        <p>Witaj na stronie <strong>Terleckiy Green Tech</strong> – firmy, która zmienia sposób myślenia o energii. Specjalizujemy się w innowacyjnych rozwiązaniach opartych na odnawialnych źródłach energii (OZE), oferując kompleksowe systemy fotowoltaiczne, farmy wiatrowe, pompy ciepła i magazyny energii. Naszym celem jest dostarczanie czystej, bezpiecznej i oszczędnej energii, która pozwala dbać o środowisko i przyszłość kolejnych pokoleń.</p>
-        <h3>Nasza misja: czysta energia dla każdego</h3>
+        <p>Witaj na stronie Terleckiy Green Tech – firmy, która zmienia sposób myślenia o energii. Specjalizujemy się w innowacyjnych rozwiązaniach opartych na odnawialnych źródłach energii (OZE), oferując kompleksowe systemy fotowoltaiczne, farmy wiatrowe, pompy ciepła i magazyny energii. Naszym celem jest dostarczanie czystej, bezpiecznej i oszczędnej energii, która pozwala dbać o środowisko i przyszłość kolejnych pokoleń.</p>
+        <h2>Nasza misja: czysta energia dla każdego</h2>
         <p>Wierzymy, że zrównoważony rozwój i nowoczesne technologie mogą iść w parze, dlatego pomagamy naszym klientom w przejściu na ekologiczną energię w sposób łatwy i opłacalny. Dzięki naszym rozwiązaniom możesz:</p>
         <ul>
             <li>✅ Oszczędzać na rachunkach za prąd – wykorzystując darmową energię ze słońca i wiatru</li>
@@ -51,22 +77,24 @@
             <li>✅ Zmniejszyć ślad węglowy – przyczyniając się do ochrony środowiska</li>
             <li>✅ Korzystać z dofinansowań – pomagamy uzyskać wsparcie finansowe na Twoją inwestycję</li>
         </ul>
-        <h3>Dlaczego warto wybrać Terleckiy Green Tech?</h3>
+        <h2>Dlaczego warto wybrać Terleckiy Green Tech?</h2>
         <ul>
             <li>🏆 Doświadczenie i nowoczesne technologie – od lat dostarczamy innowacyjne rozwiązania OZE.</li>
             <li>🔧 Kompleksowa obsługa – od projektu, przez montaż, aż po serwis.</li>
             <li>📜 Pomoc w uzyskaniu dofinansowania – wspieramy naszych klientów w zdobywaniu dotacji i ulg podatkowych.</li>
             <li>♻️ Ekologia i oszczędność – nasze rozwiązania pozwalają ograniczyć emisję CO₂ i zmniejszyć wydatki na energię.</li>
         </ul>
-        <h3>Czas na zmianę! Dołącz do rewolucji energetycznej!</h3>
+        <h2>Czas na zmianę! Dołącz do rewolucji energetycznej z Terleckiy Green Tech!</h2>
         <p>Nie zwlekaj! Inwestując w odnawialne źródła energii, oszczędzasz i dbasz o środowisko. Skontaktuj się z nami i sprawdź, jak możemy pomóc Ci przejść na zieloną stronę energii!</p>
-        <p><strong>📞 Zadzwoń do nas:</strong> [Numer telefonu]</p>
-        <p><strong>📩 Napisz wiadomość:</strong> [Adres e-mail]</p>
-        <p><strong>📍 Odwiedź nas w biurze:</strong> [Adres firmy]</p>
-        <p><strong>👉 Sprawdź nasze realizacje i przekonaj się, jak zmieniamy świat na lepsze!</strong></p>
+        <div class="contact-form">
+            <h2>Skontaktuj się z nami</h2>
+            <form>
+                <input type="text" placeholder="Twoje imię" required>
+                <input type="email" placeholder="Twój e-mail" required>
+                <textarea placeholder="Twoja wiadomość" rows="4" required></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2025 Terleckiy Green Tech. Wszystkie prawa zastrzeżone.</p>
-    </footer>
 </body>
 </html>
