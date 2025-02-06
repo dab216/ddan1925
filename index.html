@@ -3,55 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terleckiy Green Tech - Energia przyszłości</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Plik CSS do stylizacji -->
+    <title>Terleckiy Green Tech - Energia Przyszłości</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background-image: url('https://github.com/N3V4DA/HTML_Project/blob/main/obrazy/strona_glowna.png?raw=true');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: rgba(46, 139, 87, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(51, 51, 51, 0.8);
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #2E8B57;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(51, 51, 51, 0.8);
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Terleckiy Green Tech</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="o-nas.html">O nas</a></li>
-                <li><a href="rozwiazania.html">Nasze rozwiązania</a></li>
-                <li><a href="korzysci.html">Korzyści</a></li>
-                <li><a href="realizacje.html">Realizacje</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </nav>
+        <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
     </header>
-
-    <main>
-        <section id="hero">
-            <h2>Energia przyszłości w Twoich rękach</h2>
-            <p>Oferujemy kompleksowe rozwiązania z zakresu odnawialnych źródeł energii, pomagając obniżyć koszty i dbać o środowisko.</p>
-            <a href="kontakt.html" class="button">Skontaktuj się z nami</a>
-        </section>
-
-        <section id="services">
-            <h2>Nasze rozwiązania</h2>
-            <div class="service">
-                <h3><a href="rozwiazania.html">Fotowoltaika</a></h3>
-                <p>Wykorzystaj energię słoneczną i oszczędzaj na rachunkach za prąd.</p>
-            </div>
-            <div class="service">
-                <h3><a href="rozwiazania.html">Farmy wiatrowe</a></h3>
-                <p>Produkuj ekologiczną energię dzięki nowoczesnym turbinom wiatrowym.</p>
-            </div>
-            <div class="service">
-                <h3><a href="rozwiazania.html">Pompy ciepła</a></h3>
-                <p>Ekologiczne ogrzewanie i chłodzenie budynków.</p>
-            </div>
-            <div class="service">
-                <h3><a href="rozwiazania.html">Magazyny energii</a></h3>
-                <p>Przechowuj energię i korzystaj z niej, kiedy jest najbardziej potrzebna.</p>
-            </div>
-        </section>
-    </main>
-
+    <nav>
+        <a href="#home">Strona Główna</a>
+        <a href="#about">O nas</a>
+        <a href="#solutions">Nasze rozwiązania</a>
+        <a href="#benefits">Korzyści</a>
+        <a href="#projects">Realizacje</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Odnawialne źródła energii – przyszłość, którą budujemy razem</h2>
+        <p>Witaj na stronie <strong>Terleckiy Green Tech</strong> – firmy, która zmienia sposób myślenia o energii...</p>
+        <h3>Nasza misja: czysta energia dla każdego</h3>
+        <p>Wierzymy, że zrównoważony rozwój i nowoczesne technologie mogą iść w parze...</p>
+        <h3>Nasze rozwiązania</h3>
+        <ul>
+            <li><strong>Fotowoltaika</strong> – zamień promienie słoneczne na darmowy prąd!</li>
+            <li><strong>Farmy wiatrowe</strong> – wiatr to nieograniczone źródło energii.</li>
+            <li><strong>Pompy ciepła</strong> – nowoczesne systemy ogrzewania.</li>
+            <li><strong>Magazyny energii</strong> – inteligentne systemy przechowywania energii.</li>
+        </ul>
+        <h3>Dlaczego warto wybrać Terleckiy Green Tech?</h3>
+        <ul>
+            <li>🏆 Doświadczenie i nowoczesne technologie</li>
+            <li>🔧 Kompleksowa obsługa</li>
+            <li>📜 Pomoc w uzyskaniu dofinansowania</li>
+            <li>♻️ Ekologia i oszczędność</li>
+        </ul>
+        <h3>Czas na zmianę! Dołącz do rewolucji energetycznej!</h3>
+        <p>Nie zwlekaj! Inwestując w odnawialne źródła energii...</p>
+        <p><strong>📞 Zadzwoń do nas:</strong> [Numer telefonu]</p>
+        <p><strong>📩 Napisz wiadomość:</strong> [Adres e-mail]</p>
+        <p><strong>📍 Odwiedź nas w biurze:</strong> [Adres firmy]</p>
+    </div>
     <footer>
-        <p>&copy; 2025 Terleckiy Green Tech - Wszystkie prawa zastrzeżone.</p>
+        <p>&copy; 2025 Terleckiy Green Tech. Wszystkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
