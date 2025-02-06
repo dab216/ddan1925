@@ -1,82 +1,110 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terleckiy Green Tech - Energia Przyszłości</title>
     <style>
         body {
             margin: 0;
-            padding: 20px;
-            font-family: "Inter", sans-serif;
-            background-image: url('https://i.pinimg.com/1200x/70/71/fb/7071fbc9c966083b1fd2274f4e32fe23.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            color: #333;
-        }
-        .nav {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            background-color: #02732A;
-            padding: 10px 15px;
-            border-radius: 5px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        .home-button {
-            display: block;
-            width: fit-content;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #02732A;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            border-radius: 5px;
-            text-align: center;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background-image: url('https://github.com/N3V4DA/HTML_Project/blob/main/obrazy/ssd.png?raw=true');
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dysk SSD</title>
+    <link rel="stylesheet" href="styl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <a href="#solutions">Nasze rozwiązania</a>
-        <a href="#benefits">Korzyści</a>
-        <a href="#projects">Realizacje</a>
-        <a href="#blog">Blog</a>
+    <header>
+        <h1 class="outlined-text">Dysk SSD</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="procesor.html">Procesor</a></li>
+            <li><a href="plyta_glowna.html">Płyta główna</a></li>
+            <li><a href="pamiec_ram.html">Pamięć RAM</a></li>
+            <li><a href="karta_graficzna.html">Karta graficzna</a></li>
+            <li><a href="dysk_ssd.html">Dysk SSD</a></li>
+            <li><a href="zasilacz.html">Zasilacz</a></li>
+            <li><a href="obudowa.html">Obudowa</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Dyski SSD: rewolucja w przechowywaniu danych</h2>
+        <section>
+            <p>Dyski SSD (Solid State Drive) od lat rewolucjonizują sposób, w jaki przechowujemy i uzyskujemy dostęp do danych na komputerach osobistych. Dzięki swojej wydajności, niezawodności i szybkości, stały się niezastąpionym elementem nowoczesnych PC, zarówno w zastosowaniach domowych, jak i profesjonalnych.</p>
+        </section>
+        <iframe src="https://giphy.com/embed/pz73zz180JZyKsGXnO" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/2yuTefD813oW6wEoSX" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <section>
+            <h2>Co wyróżnia SSD na tle tradycyjnych HDD?</h2>
+            <p>Dyski SSD, w przeciwieństwie do tradycyjnych dysków twardych (HDD), nie posiadają ruchomych części. Dane są przechowywane w pamięci NAND Flash, co pozwala na:</p>
+            <ul>
+                <li><strong>Szybszy dostęp do danych</strong>: SSD oferują znacznie krótsze czasy odczytu i zapisu niż HDD, co przekłada się na szybsze uruchamianie systemu operacyjnego i aplikacji.</li>
+                <li><strong>Większą niezawodność</strong>: Brak ruchomych części sprawia, że są mniej podatne na uszkodzenia mechaniczne.</li>
+                <li><strong>Cichą pracę</strong>: SSD działają bezgłośnie, w przeciwieństwie do szumiących HDD.</li>
+                <li><strong>Niższe zużycie energii</strong>: Są bardziej energooszczędne, co jest szczególnie ważne w laptopach.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Kluczowe Typy SSD</h2>
+            <ol>
+                <li><strong>SATA SSD</strong>:<br>
+                    Najstarszy i najwolniejszy standard SSD.<br>
+                    Przepustowość do 600 MB/s.<br>
+                    Nadal dobry wybór dla starszych komputerów.
+                </li>
+                <li><strong>NVMe SSD</strong>:<br>
+                    Wykorzystują złącze PCIe, co pozwala na znacznie większe prędkości (do 7000 MB/s w najnowszych modelach).<br>
+                    Idealne do wymagających zastosowań, takich jak gry, edycja wideo czy praca z danymi.
+                </li>
+                <li><strong>M.2 SSD</strong>:<br>
+                    Kompaktowy format, dostępny w wariantach SATA i NVMe.<br>
+                    Popularny w ultrabookach i nowoczesnych PC.
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h2>Zastosowania Dysków SSD w Nowoczesnych PC</h2>
+            <p>Dyski SSD znajdują szerokie zastosowanie w komputerach osobistych:</p>
+            <ul>
+                <li><strong>System operacyjny</strong>: Instalacja systemu na SSD zapewnia szybkie uruchamianie i działanie komputera.</li>
+                <li><strong>Gry</strong>: Krótsze czasy ładowania poziomów i lepsza ogólna wydajność.</li>
+                <li><strong>Praca z multimediami</strong>: Edycja wideo i grafiki jest bardziej płynna dzięki szybkiemu dostępowi do plików.</li>
+                <li><strong>Kopia zapasowa</strong>: SSD o dużej pojemności idealnie sprawdzają się do przechowywania ważnych danych.</li>
+            </ul>
+        </section>
+        <h2>Dowiedz się więcej</h2>
+    <div class="video-container">
+        <!-- Pierwszy film -->
+        <iframe 
+            src="https://www.youtube.com/embed/ZEDmsXuCs9M" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <!-- Drugi film -->
+        <iframe 
+            src="https://www.youtube.com/embed/XvpsomoI4zM" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
     </div>
-    <a href="#" class="home-button">Powrót na główną</a>
-    <div class="container" id="solutions">
-        <h2>Nasze rozwiązania</h2>
-        <p>W Terleckiy Green Tech oferujemy szeroki zakres nowoczesnych rozwiązań w dziedzinie odnawialnych źródeł energii (OZE)...</p>
-        <h3>🌞 Fotowoltaika – darmowa energia ze słońca</h3>
-        <p>Fotowoltaika to jeden z najpopularniejszych sposobów na uzyskanie czystej i taniej energii elektrycznej...</p>
-        <h3>💨 Farmy wiatrowe – energia z wiatru</h3>
-        <p>Energia wiatrowa to jedno z najbardziej ekologicznych rozwiązań produkcji prądu na dużą skalę...</p>
-        <h3>🔥 Pompy ciepła – efektywne ogrzewanie i chłodzenie</h3>
-        <p>Pompy ciepła to nowoczesne, energooszczędne urządzenia, które pozwalają na ogrzewanie budynków oraz przygotowanie ciepłej wody użytkowej...</p>
-        <h3>🔋 Magazyny energii – niezależność energetyczna</h3>
-        <p>Magazynowanie energii pozwala na jej optymalne wykorzystanie, zwłaszcza w połączeniu z fotowoltaiką lub farmami wiatrowymi...</p>
-    </div>
-    <div class="container">
-        <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
-        <p>Witaj na stronie Terleckiy Green Tech – firmy, która zmienia sposób myślenia o energii...</p>
-    </div>
+        <footer>
+            <p>
+            <strong>Podsumowanie</strong><br>
+            <p>Nowoczesne dyski SSD to klucz do maksymalnej wydajności współczesnych komputerów. Wybór odpowiedniego typu dysku zależy od potrzeb użytkownika, ale niezależnie od wyboru, każdy SSD zapewnia ogromny skok technologiczny w porównaniu do tradycyjnych HDD. Inwestycja w SSD to gwarancja szybszej pracy, niezawodności i komfortu użytkowania.</p>
+            </p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Najwydajniejsze komputery. Wszystkie prawa zastrzeżone.</p>
+    </footer>
 </body>
 </html>
