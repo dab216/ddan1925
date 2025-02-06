@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terleckiy Green Tech - Energia Przyszłości</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Inter", sans-serif;
+            background-image: url('https://i.pinimg.com/1200x/70/71/fb/7071fbc9c966083b1fd2274f4e32fe23.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background-color: #02732A;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .home-button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #02732A;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <a href="#solutions">Nasze rozwiązania</a>
+        <a href="#benefits">Korzyści</a>
+        <a href="#projects">Realizacje</a>
+        <a href="#blog">Blog</a>
+    </div>
+    <a href="#" class="home-button">Powrót na główną</a>
+    <div class="container" id="solutions">
+        <h2>Nasze rozwiązania</h2>
+        <p>W Terleckiy Green Tech oferujemy szeroki zakres nowoczesnych rozwiązań w dziedzinie odnawialnych źródeł energii (OZE)...</p>
+        <h3>🌞 Fotowoltaika – darmowa energia ze słońca</h3>
+        <p>Fotowoltaika to jeden z najpopularniejszych sposobów na uzyskanie czystej i taniej energii elektrycznej...</p>
+        <h3>💨 Farmy wiatrowe – energia z wiatru</h3>
+        <p>Energia wiatrowa to jedno z najbardziej ekologicznych rozwiązań produkcji prądu na dużą skalę...</p>
+        <h3>🔥 Pompy ciepła – efektywne ogrzewanie i chłodzenie</h3>
+        <p>Pompy ciepła to nowoczesne, energooszczędne urządzenia, które pozwalają na ogrzewanie budynków oraz przygotowanie ciepłej wody użytkowej...</p>
+        <h3>🔋 Magazyny energii – niezależność energetyczna</h3>
+        <p>Magazynowanie energii pozwala na jej optymalne wykorzystanie, zwłaszcza w połączeniu z fotowoltaiką lub farmami wiatrowymi...</p>
+    </div>
+    <div class="container">
+        <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
+        <p>Witaj na stronie Terleckiy Green Tech – firmy, która zmienia sposób myślenia o energii...</p>
+    </div>
+</body>
+</html>
