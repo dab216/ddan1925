@@ -12,10 +12,6 @@
             font-family: Menlo, Courier, monospace;
             background-color: #f4f4f4;
             color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             text-align: center;
             background-attachment: fixed;
         }
@@ -26,75 +22,56 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
         }
-        h1, h2 {
-            transition: color 0.3s ease-in-out;
+        nav {
+            margin-bottom: 20px;
         }
-        h1:hover, h2:hover {
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
             color: #2e8b57;
+            font-weight: bold;
         }
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            .content {
-                padding: 20px;
-            }
-        }
-        .contact-form {
-            margin-top: 20px;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            padding: 10px 20px;
-            background: #2e8b57;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        .contact-form button:hover {
-            background: #237a4c;
+        section {
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <div class="content">
-        <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
-        <p>Witaj na stronie Terleckiy Green Tech – firmy, która zmienia sposób myślenia o energii. Specjalizujemy się w innowacyjnych rozwiązaniach opartych na odnawialnych źródłach energii (OZE), oferując kompleksowe systemy fotowoltaiczne, farmy wiatrowe, pompy ciepła i magazyny energii. Naszym celem jest dostarczanie czystej, bezpiecznej i oszczędnej energii, która pozwala dbać o środowisko i przyszłość kolejnych pokoleń.</p>
-        <h2>Nasza misja: czysta energia dla każdego</h2>
-        <p>Wierzymy, że zrównoważony rozwój i nowoczesne technologie mogą iść w parze, dlatego pomagamy naszym klientom w przejściu na ekologiczną energię w sposób łatwy i opłacalny. Dzięki naszym rozwiązaniom możesz:</p>
-        <ul>
-            <li>✅ Oszczędzać na rachunkach za prąd – wykorzystując darmową energię ze słońca i wiatru</li>
-            <li>✅ Zwiększyć swoją niezależność energetyczną – magazynując energię na własny użytek</li>
-            <li>✅ Zmniejszyć ślad węglowy – przyczyniając się do ochrony środowiska</li>
-            <li>✅ Korzystać z dofinansowań – pomagamy uzyskać wsparcie finansowe na Twoją inwestycję</li>
-        </ul>
-        <h2>Dlaczego warto wybrać Terleckiy Green Tech?</h2>
-        <ul>
-            <li>🏆 Doświadczenie i nowoczesne technologie – od lat dostarczamy innowacyjne rozwiązania OZE.</li>
-            <li>🔧 Kompleksowa obsługa – od projektu, przez montaż, aż po serwis.</li>
-            <li>📜 Pomoc w uzyskaniu dofinansowania – wspieramy naszych klientów w zdobywaniu dotacji i ulg podatkowych.</li>
-            <li>♻️ Ekologia i oszczędność – nasze rozwiązania pozwalają ograniczyć emisję CO₂ i zmniejszyć wydatki na energię.</li>
-        </ul>
-        <h2>Czas na zmianę! Dołącz do rewolucji energetycznej z Terleckiy Green Tech!</h2>
-        <p>Nie zwlekaj! Inwestując w odnawialne źródła energii, oszczędzasz i dbasz o środowisko. Skontaktuj się z nami i sprawdź, jak możemy pomóc Ci przejść na zieloną stronę energii!</p>
-        <div class="contact-form">
-            <h2>Skontaktuj się z nami</h2>
-            <form>
-                <input type="text" placeholder="Twoje imię" required>
-                <input type="email" placeholder="Twój e-mail" required>
-                <textarea placeholder="Twoja wiadomość" rows="4" required></textarea>
-                <button type="submit">Wyślij</button>
-            </form>
-        </div>
+        <nav>
+            <a href="#about">O nas</a>
+            <a href="#solutions">Nasze rozwiązania</a>
+            <a href="#benefits">Korzyści</a>
+            <a href="#projects">Realizacje</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+        <section id="about">
+            <h2>O nas</h2>
+            <p>Informacje o naszej firmie...</p>
+        </section>
+        <section id="solutions">
+            <h2>Nasze rozwiązania</h2>
+            <p>Opis naszych innowacyjnych rozwiązań...</p>
+        </section>
+        <section id="benefits">
+            <h2>Korzyści</h2>
+            <p>Dlaczego warto wybrać nasze usługi...</p>
+        </section>
+        <section id="projects">
+            <h2>Realizacje</h2>
+            <p>Nasze dotychczasowe projekty...</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Ostatnie artykuły i aktualności...</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Jak się z nami skontaktować...</p>
+        </section>
     </div>
 </body>
 </html>
