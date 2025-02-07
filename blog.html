@@ -3,55 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terleckiy Green Tech - Blog</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styl.css">
+    <meta name="description" content="Terleckiy Green Tech - Twój partner w energii odnawialnej! Oferujemy farmy wiatrowe, fotowoltaikę, pompy ciepła i magazyny energii.">
+    <title>Terleckiy Green Tech - Energia Przyszłości</title>
     <style>
         body {
             margin: 0;
-            font-family: "Roboto", sans-serif;
-            background-color: #f4f4f4;
+            padding: 20px;
+            font-family: "Inter", sans-serif;
+            background-image: url('https://i.pinimg.com/1200x/70/71/fb/7071fbc9c966083b1fd2274f4e32fe23.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             color: #333;
             line-height: 1.6;
         }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background: white;
-            position: relative;
-            z-index: 1;
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
         }
-        h1, h2, h3 {
-            color: #2E8B57;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li::before {
-            content: '✔ ';
-            color: #2E8B57;
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
             font-weight: bold;
+            font-size: 18px;
+            background-color: transparent;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
-        .blog-image {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            object-fit: cover;
-            z-index: -1;
+        nav a:hover {
+            background-color: #025a20;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .home-button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .home-button:hover {
+            background-color: #025a20;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 14px;
+            color: #fff;
+            background: #02732A;
+            border-radius: 5px;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="https://elements.visualcapitalist.com/wp-content/uploads/2022/06/the-five-types-of-renewable-energy.jpg" alt="Rodzaje energii odnawialnej" class="blog-image">
-    
+
+    <nav>
+        <a href="#">Strona Główna</a>
+        <a href="#">O Nas</a>
+        <a href="#">Usługi</a>
+        <a href="#">Kontakt</a>
+    </nav>
+
     <div class="container">
         <h1>Blog – Najnowsze informacje i porady dotyczące OZE</h1>
-        
+
         <h2>1. Jak działa fotowoltaika i dlaczego warto w nią zainwestować?</h2>
         <p>Fotowoltaika to jedno z najpopularniejszych źródeł energii odnawialnej. W artykule wyjaśniamy, jak działa ten system oraz jakie korzyści przynosi inwestycja w panele słoneczne.</p>
         <p><strong>Najważniejsze informacje:</strong></p>
@@ -60,7 +94,7 @@
             <li>Ile można zaoszczędzić na rachunkach za prąd?</li>
             <li>Jakie dotacje i ulgi podatkowe można uzyskać?</li>
         </ul>
-        
+
         <h2>2. Pompy ciepła – ekologiczne i efektywne ogrzewanie</h2>
         <p>Pompy ciepła to energooszczędne systemy ogrzewania i chłodzenia budynków. Sprawdzamy, które rodzaje pomp ciepła są najlepsze oraz jakie są ich zalety i wady.</p>
         <p><strong>Najważniejsze informacje:</strong></p>
@@ -69,7 +103,7 @@
             <li>Koszt inwestycji i dostępne programy dofinansowań.</li>
             <li>Jakie korzyści niesie połączenie pomp ciepła z fotowoltaiką?</li>
         </ul>
-        
+
         <h2>3. Magazyny energii – przyszłość niezależności energetycznej</h2>
         <p>Coraz więcej osób decyduje się na montaż magazynów energii. Pozwalają one przechowywać nadwyżki energii wyprodukowanej przez panele fotowoltaiczne lub turbiny wiatrowe.</p>
         <p><strong>Najważniejsze informacje:</strong></p>
@@ -78,7 +112,7 @@
             <li>Czy warto inwestować w akumulatory litowo-jonowe?</li>
             <li>Jakie są najnowsze technologie przechowywania energii?</li>
         </ul>
-        
+
         <h2>4. Energia wiatrowa w Polsce – jakie są prognozy na przyszłość?</h2>
         <p>Energia wiatrowa w Polsce rozwija się dynamicznie, ale wciąż napotyka na liczne wyzwania. W tym wpisie analizujemy stan rynku oraz najnowsze regulacje prawne.</p>
         <p><strong>Najważniejsze informacje:</strong></p>
@@ -87,7 +121,7 @@
             <li>Czy turbiny wiatrowe są opłacalne?</li>
             <li>Jakie są aktualne regulacje dotyczące farm wiatrowych w Polsce?</li>
         </ul>
-        
+
         <h2>5. Jakie dofinansowania na OZE można uzyskać w 2025 roku?</h2>
         <p>Dotacje i ulgi podatkowe na instalacje odnawialnych źródeł energii zmieniają się co roku. W artykule przedstawiamy aktualne programy wsparcia dla osób prywatnych i firm.</p>
         <p><strong>Najważniejsze informacje:</strong></p>
@@ -96,9 +130,11 @@
             <li>Jakie warunki trzeba spełnić, aby otrzymać dotację?</li>
             <li>Ile można zaoszczędzić dzięki rządowym dofinansowaniom?</li>
         </ul>
-        
-        <h2>📢 Bądź na bieżąco z najnowszymi trendami w OZE!</h2>
-        <p>Śledź nasz blog i dowiedz się, jak wykorzystać odnawialne źródła energii w swoim domu lub firmie.</p>
     </div>
+
+    <footer>
+        &copy; 2025 Terleckiy Green Tech - Wszystkie prawa zastrzeżone.
+    </footer>
+
 </body>
 </html>
