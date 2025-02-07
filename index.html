@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terleckiy Green Tech - Twój partner w energii odnawialnej! Oferujemy farmy wiatrowe, fotowoltaikę, pompy ciepła i magazyny energii.">
     <title>Terleckiy Green Tech - Energia Przyszłości</title>
     <style>
         body {
@@ -14,57 +15,26 @@
             background-position: center;
             background-attachment: fixed;
             color: #333;
+            line-height: 1.6;
         }
-        .nav {
+        nav {
             text-align: center;
             margin-bottom: 20px;
-            position: relative;
         }
-        .nav > ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-        .nav ul li {
-            position: relative;
-            display: inline-block;
-        }
-        .nav a {
+        nav a {
+            margin: 0 15px;
             text-decoration: none;
             color: white;
             font-weight: bold;
             font-size: 18px;
-            background-color: #02732A;
+            background-color: transparent;
             padding: 10px 15px;
             border-radius: 5px;
-            display: block;
+            transition: background-color 0.3s ease-in-out;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
-        .nav ul li:hover .dropdown {
-            display: block;
-        }
-        .dropdown {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: #02732A;
-            border-radius: 5px;
-            padding: 0;
-            min-width: 180px;
-        }
-        .dropdown li {
-            display: block;
-            text-align: left;
-        }
-        .dropdown a {
-            padding: 10px;
-            display: block;
-        }
-        .dropdown a:hover {
-            background: #035d20;
+        nav a:hover {
+            background-color: #025a20;
         }
         .container {
             max-width: 800px;
@@ -80,55 +50,64 @@
             width: fit-content;
             margin: 20px auto;
             padding: 10px 20px;
-            background-color: #02732A;
+            background-color: transparent;
             color: white;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
             border-radius: 5px;
             text-align: center;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .home-button:hover {
+            background-color: #025a20;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 14px;
+            color: #fff;
+            background: #02732A;
+            border-radius: 5px;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <ul>
-            <li>
-                <a href="#solutions">Nasze rozwiązania</a>
-                <ul class="dropdown">
-                    <li><a href="#solar">Fotowoltaika</a></li>
-                    <li><a href="#wind">Energia wiatrowa</a></li>
-                    <li><a href="#storage">Magazyny energii</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#benefits">Korzyści</a>
-                <ul class="dropdown">
-                    <li><a href="#savings">Oszczędności</a></li>
-                    <li><a href="#eco">Ekologia</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#projects">Realizacje</a>
-                <ul class="dropdown">
-                    <li><a href="#residential">Domy prywatne</a></li>
-                    <li><a href="#commercial">Firmy</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#blog">Blog</a>
-                <ul class="dropdown">
-                    <li><a href="#news">Nowości</a></li>
-                    <li><a href="#tips">Porady</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    <nav>
+        <a href="solutions.html" title="Zobacz nasze rozwiązania">Nasze rozwiązania</a>
+        <a href="benefits.html" title="Poznaj korzyści">Korzyści</a>
+        <a href="projects.html" title="Nasze realizacje">Realizacje</a>
+        <a href="blog.html" title="Przeczytaj nasz blog">Blog</a>
+    </nav>
     <a href="#" class="home-button">Powrót na główną</a>
     <div class="container">
         <h1>Terleckiy Green Tech – energia przyszłości w Twoich rękach</h1>
-        <p>Witaj na stronie Terleckiy Green Tech...</p>
+        <p>Witaj na stronie Terleckiy Green Tech – firmy, która zmienia sposób myślenia o energii. Specjalizujemy się w innowacyjnych rozwiązaniach opartych na odnawialnych źródłach energii (OZE), oferując kompleksowe systemy fotowoltaiczne, farmy wiatrowe, pompy ciepła i magazyny energii. Naszym celem jest dostarczanie czystej, bezpiecznej i oszczędnej energii, która pozwala dbać o środowisko i przyszłość kolejnych pokoleń.</p>
+        <h2>Nasza misja: czysta energia dla każdego</h2>
+        <p>Wierzymy, że zrównoważony rozwój i nowoczesne technologie mogą iść w parze, dlatego pomagamy naszym klientom w przejściu na ekologiczną energię w sposób łatwy i opłacalny...</p>
+        <ul>
+            <li>✅ Oszczędzaj na rachunkach za prąd</li>
+            <li>✅ Zwiększ swoją niezależność energetyczną</li>
+            <li>✅ Zmniejsz ślad węglowy</li>
+            <li>✅ Korzystaj z dofinansowań</li>
+        </ul>
+        <h2>Dlaczego warto wybrać Terleckiy Green Tech?</h2>
+        <ul>
+            <li>🏆 Doświadczenie i nowoczesne technologie</li>
+            <li>🔧 Kompleksowa obsługa</li>
+            <li>📜 Pomoc w uzyskaniu dofinansowania</li>
+            <li>♻️ Ekologia i oszczędność</li>
+        </ul>
+        <h2>Czas na zmianę! Dołącz do rewolucji energetycznej!</h2>
+        <p>Nie zwlekaj! Skontaktuj się z nami...</p>
+        <p><strong>📞 Zadzwoń:</strong> [Numer telefonu]</p>
+        <p><strong>📩 Napisz:</strong> [Adres e-mail]</p>
+        <p><strong>📍 Odwiedź nas:</strong> [Adres firmy]</p>
     </div>
+    <footer>
+        &copy; 2025 Terleckiy Green Tech. Wszelkie prawa zastrzeżone.
+    </footer>
 </body>
 </html>
